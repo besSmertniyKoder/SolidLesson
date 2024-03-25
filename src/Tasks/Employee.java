@@ -1,5 +1,8 @@
+package Tasks;
+
+
 //SRP
-public class Employee {
+class Employee {
     private String name;
     private double salary;
 
@@ -7,7 +10,20 @@ public class Employee {
         // Подсчет заработной платы
     }
 
+
+
+}
+class EmployeeDatabase{
     public void saveEmployee() {
+
         // Сохранение данных сотрудника в базу данных
+    }
+
+}
+class Calculator{
+    public double calculateSalary(Employee employee) {
+        //считать
+        return 0;
+        // Подсчет заработной платы
     }
 }

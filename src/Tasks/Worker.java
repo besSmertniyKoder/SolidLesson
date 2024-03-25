@@ -1,10 +1,14 @@
-//ISP
+package Tasks;
+
 interface Worker {
     void work();
+
+}
+interface Eatable{
     void eat();
 }
 
-class Engineer implements Worker {
+class Engineer implements Worker, Eatable {
     public void work() {
         // Реализация работы инженера
     }
